@@ -9,8 +9,9 @@
 		  <property name="connection.username">root</property>
 		  <property name="connection.password">Md@saif07</property>
 		  <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
-			<property name="hbm2ddl.auto">create</property>
+			<property name="hbm2ddl.auto">update</property>
 		  <property name="show_sql">true</property>
 		  <mapping class="com.hibernates.Student"/>
+		  <mapping class="com.hibernates.Address" />
 	  </session-factory>
   </hibernate-configuration>
