@@ -1,5 +1,7 @@
 package com.hibernates;
 
+import com.mysql.cj.x.protobuf.MysqlxExpr;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
